@@ -20,7 +20,7 @@ bot.start((ctx) => {
 
   return ctx.reply(
     ctx.update.message.from.first_name +
-      ", привет. Эхо-Котейко-Бот активирован! Хо-хо-хо",
+      ", привет. Эхо-Котейко-Бот активирован! Хо-хо",
     getMainMenu().oneTime()
   );
 });
